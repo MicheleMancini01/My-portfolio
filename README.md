@@ -1,15 +1,14 @@
 # Titolo del Progetto
+Test Project
 
 ## Descrizione del Progetto
-Il progetto XYZ è un'applicazione web che permette agli utenti di gestire le proprie attività quotidiane in modo efficiente. Con un'interfaccia intuitiva e funzionalità avanzate, XYZ rende la gestione delle attività un gioco da ragazzi.
+This is just a projet that I use to make some tests inside Gitup. it is not relevant for job interwies.
 
 ## Tecnologie Utilizzate
 - HTML5
-- CSS3
+- CSS
 - JavaScript
-- Node.js
-- MongoDB
 
 ## Contatti
-- Profilo LinkedIn: Nome Cognome
-- Email: nomecognome@email.com
+- Profilo LinkedIn: [Nome Cognome](https://www.linkedin.com/in/michele-mancini-178600297/)
+- Email: michelemancini.303@gmailcom
