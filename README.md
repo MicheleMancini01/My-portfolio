@@ -9,6 +9,9 @@ It is not relevant for job interwies.
 - CSS
 - JavaScript
 
+## Wiew project
+- [Example project](https://github.com/MicheleMancini01/My-portfolio/)
+
 ## Contatti
 - Profilo LinkedIn: [Michele Mancini](https://www.linkedin.com/in/michele-mancini-178600297/)
 - Email: michelemancini.303@gmailcom
