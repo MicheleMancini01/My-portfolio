@@ -1,0 +1,16 @@
+COSE DA FARE:
+
+vai avanti con vita da founder
+valuta, nel progetto "agenzia viaggi" se inserire una sezione in cui puoi da admin puoi mandare le idee di viaggio al database he le farà vedere nella sezione utenti
+
+COSE FATTE:
+
+passati valore del form alla pagina di conferma tramite richiesta post
+crea pagina di conferma
+crea routes per muoversi nel sito
+crea tabella nel database
+creare post collegata a database per il form nella sezione contattaci
+rendi possibile prendere i dati dal database per compilare la pagina users
+abbellisci la pagina users con una tabella migliore ecc
+crea la pagina admin
+proteggi la pagina admin con le sessioni

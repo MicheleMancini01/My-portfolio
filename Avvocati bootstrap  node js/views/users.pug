@@ -1,0 +1,49 @@
+extends layout
+
+block content
+  .container.text-center 
+    h2.mt-4 The users 
+    p These users are loaded in real time from the database!
+    p These users are Italians.
+    a(href="/logout") logout
+    br
+    .row.border.mb-0.mt-5.fw-bold
+      .col-1 
+        .row.border
+          p.my-2  Id
+      .col-2  
+        .row.border
+          p.my-2 Name
+      .col-2 
+        .row.border
+          p.my-2 Email
+      .col-2 
+        .row.border
+          p.my-2 Telefon number 
+      .col-1 
+        .row.border
+          p.my-2 Location
+      .col-4
+        .row.border
+          p.my-2 Text  
+    .row.border.mb-5.py-auto
+      each user in users 
+        .col-1.border 
+          .row
+            p.my-2 #{user.id}
+        .col-2.border
+          .row
+            p.my-2 #{user.name}
+        .col-2.border 
+          .row
+            p.my-2 #{user.email} 
+        .col-2.border 
+          .row
+            p.my-2 #{user.number} 
+        .col-1.border
+          .row
+            p.my-2 #{user.location} 
+        .col-4.border
+          .row
+            p.my-2 #{user.text}
+        

@@ -1,0 +1,181 @@
+extends layout
+
+block content
+ nav.navbar.bg-dark.border-bottom.border-body.navbar-expand-lg(style='position: fixed; top: 0; width: 100%; z-index: 5', data-bs-theme='dark')
+  a.navbar-brand(href='#home')
+    h1.text-start.fw-normal.fs-2.ms-2.mt-2 L.F. Rossi
+  #navbarSupportedContent
+    ul.nav.my-3.me-2.px-0.position-absolute.top-0.end-0
+      li.nav-item
+        a.nav-link.text-light.active(aria-current='page', href='#') Home
+      li.nav-item
+        a.nav-link.text-light(href='#services') Services
+      li.nav-item
+        a.nav-link.text-light(href='#locations') Locations
+      li.nav-item
+        a.nav-link.text-light(href='#contacts') Contacts 
+ .container(style='margin-top: 120px')
+  h1#home.text-center.fs-2.fw-bold.ms-2.mt-2
+    | Law firm  Rossi
+  .container.text-start
+    .row.my-5
+      .col-lg.d-flex
+        .text-center.mx-auto
+          img.my-4.img-fluid.rounded(style='max-width: 500px', src='https://images.pexels.com/photos/4427430/pexels-photo-4427430.jpeg?auto=compress&cs=tinysrgb&w=600', alt='Low Firm')
+      .col-lg.mt-4.fw-medium
+        p.fs-6
+          | The Rossi Law Firm offers high quality legal advice with
+          | a wide range of services to meet the legal needs of
+          | clients.
+        p.fs-6
+          | With an established reputation for professional excellence, 
+          | we are committed to providing effective and customized solutions.
+        p.fs-6
+          | Our experienced lawyers cover different areas of law,
+          | including civil, criminal, commercial and family law.
+        p.fs-6
+          | Reliability, competence and dedication are our fundamentals
+          | values.
+        p.fs-6
+          | We are here to protect your interests and guide you through
+          | legal complexities with the utmost care and expertise.
+        p.fs-6
+          | Welcome to the Rossi Law Firm, where your justice is
+          | our priority.
+        #services
+  hr
+  h3.text-center.mt-4 Our areas of expertise:
+  .container
+    .row.my-5
+      .col-sm.my-3
+        .card(style='width: 100%')
+          svg.bi.bi-cash-coin.mx-auto.mt-4(xmlns='http://www.w3.org/2000/svg', width='40%', height='40%', fill='currentColor', viewbox='0 0 16 16')
+            path(fill-rule='evenodd', d='M11 15a4 4 0 1 0 0-8 4 4 0 0 0 0 8m5-4a5 5 0 1 1-10 0 5 5 0 0 1 10 0')
+            path(d='M9.438 11.944c.047.596.518 1.06 1.363 1.116v.44h.375v-.443c.875-.061 1.386-.529 1.386-1.207 0-.618-.39-.936-1.09-1.1l-.296-.07v-1.2c.376.043.614.248.671.532h.658c-.047-.575-.54-1.024-1.329-1.073V8.5h-.375v.45c-.747.073-1.255.522-1.255 1.158 0 .562.378.92 1.007 1.066l.248.061v1.272c-.384-.058-.639-.27-.696-.563h-.668zm1.36-1.354c-.369-.085-.569-.26-.569-.522 0-.294.216-.514.572-.578v1.1zm.432.746c.449.104.655.272.655.569 0 .339-.257.571-.709.614v-1.195z')
+            path(d='M1 0a1 1 0 0 0-1 1v8a1 1 0 0 0 1 1h4.083q.088-.517.258-1H3a2 2 0 0 0-2-2V3a2 2 0 0 0 2-2h10a2 2 0 0 0 2 2v3.528c.38.34.717.728 1 1.154V1a1 1 0 0 0-1-1z')
+            path(d='M9.998 5.083 10 5a2 2 0 1 0-3.132 1.65 6 6 0 0 1 3.13-1.567')
+          .card-body
+            h5.card-title.text-center Compensation
+            p.card-text.text-center
+              | We have been dealing with compensation cases for years,
+              | about damage to people or things
+      .col-sm.my-3
+        .card(style='width: 100%')
+          svg.bi.bi-card-checklist.mx-auto.mt-2(xmlns='http://www.w3.org/2000/svg', width='40%', height='40%', fill='currentColor', viewbox='0 0 16 16')
+            path(d='M14.5 3a.5.5 0 0 1 .5.5v9a.5.5 0 0 1-.5.5h-13a.5.5 0 0 1-.5-.5v-9a.5.5 0 0 1 .5-.5zm-13-1A1.5 1.5 0 0 0 0 3.5v9A1.5 1.5 0 0 0 1.5 14h13a1.5 1.5 0 0 0 1.5-1.5v-9A1.5 1.5 0 0 0 14.5 2z')
+            path(d='M7 5.5a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1-.5-.5m-1.496-.854a.5.5 0 0 1 0 .708l-1.5 1.5a.5.5 0 0 1-.708 0l-.5-.5a.5.5 0 1 1 .708-.708l.146.147 1.146-1.147a.5.5 0 0 1 .708 0M7 9.5a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1-.5-.5m-1.496-.854a.5.5 0 0 1 0 .708l-1.5 1.5a.5.5 0 0 1-.708 0l-.5-.5a.5.5 0 0 1 .708-.708l.146.147 1.146-1.147a.5.5 0 0 1 .708 0')
+          .card-body
+            h5.card-title.text-center Corporate legality
+            p.card-text.text-center
+              | We take care of all the legal aspects arising from
+              | companies, in order to reduce stress for the entrepreneur
+      .col-sm.my-3
+        .card(style='width: 100%')
+          svg.bi.bi-heartbreak.mx-auto.mt-4(xmlns='http://www.w3.org/2000/svg', width='40%', height='40%', fill='currentColor', viewbox='0 0 16 16')
+            path(d='M8.867 14.41c13.308-9.322 4.79-16.563.064-13.824L7 3l1.5 4-2 3L8 15a38 38 0 0 0 .867-.59m-.303-1.01-.971-3.237 1.74-2.608a1 1 0 0 0 .103-.906l-1.3-3.468 1.45-1.813c1.861-.948 4.446.002 5.197 2.11.691 1.94-.055 5.521-6.219 9.922m-1.25 1.137a36 36 0 0 1-1.522-1.116C-5.077 4.97 1.842-1.472 6.454.293c.314.12.618.279.904.477L5.5 3 7 7l-1.5 3zm-2.3-3.06-.442-1.106a1 1 0 0 1 .034-.818l1.305-2.61L4.564 3.35a1 1 0 0 1 .168-.991l1.032-1.24c-1.688-.449-3.7.398-4.456 2.128-.711 1.627-.413 4.55 3.706 8.229Z')
+          .card-body
+            h5.card-title.text-center Separations
+            p.card-text.text-center
+              | Our specialization is precisely to follow cases of
+              | separations and divorces also in presence of children.
+      .col-sm.my-3
+        .card(style='width: 100%')
+          svg.bi.bi-houses.mx-auto.mt-3(xmlns='http://www.w3.org/2000/svg', width='40%', height='40%', fill='currentColor', viewbox='0 0 16 16')
+            path(d='M5.793 1a1 1 0 0 1 1.414 0l.647.646a.5.5 0 1 1-.708.708L6.5 1.707 2 6.207V12.5a.5.5 0 0 0 .5.5.5.5 0 0 1 0 1A1.5 1.5 0 0 1 1 12.5V7.207l-.146.147a.5.5 0 0 1-.708-.708zm3 1a1 1 0 0 1 1.414 0L12 3.793V2.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v3.293l1.854 1.853a.5.5 0 0 1-.708.708L15 8.207V13.5a1.5 1.5 0 0 1-1.5 1.5h-8A1.5 1.5 0 0 1 4 13.5V8.207l-.146.147a.5.5 0 1 1-.708-.708zm.707.707L5 7.207V13.5a.5.5 0 0 0 .5.5h8a.5.5 0 0 0 .5-.5V7.207z')
+          .card-body
+            h5.card-title.text-center Inheritance
+            p.card-text.text-center
+              | We take care of following the asset distribution practices
+              | due to hereditary issues.
+            #locations
+  hr
+  h3.text-center.mt-4 Find the studio closest to you:
+  .containerCol.text-center.my-5
+    .row
+      .col-sm.mb-4.mx-4
+        .card
+          img.card-img-top(src='https://cdn.pixabay.com/photo/2019/10/06/08/57/tiber-river-4529605_640.jpg', alt='Rome')
+          .card-body
+            h5.card-title.titolo5.text-center Rome 
+            p.card-text.text-center
+              | Our office in Rome is located in via Bianchi 10.
+            .text-center
+              a.btn.btn-primary(href='#contacts', type='submit') Book now!
+      .col-sm.mb-4.mx-4
+        .card
+          img.card-img-top(src='https://cdn.pixabay.com/photo/2016/12/27/09/24/grand-canal-1933559_640.jpg', alt='Venice')
+          .card-body.text-center
+            h5.card-title.text-center Venice
+            p.card-text.text-center
+              | Our office in Venice is located in via Verdi 10.
+            a.btn.btn-primary(href='#contacts') Book now! 
+      .col-sm.mx-4
+        .card
+          img.card-img-top(src='https://cdn.pixabay.com/photo/2021/11/19/11/13/duomo-6808817_1280.jpg', alt='Milan')
+          .card-body.text-center
+            h5.card-title.text-center Milan
+            p.card-text.text-center
+              | Our office in Milan is located in via Neri 10.
+            a.btn.btn-primary(href='#contacts') Book now!
+        #contacts
+  hr
+  .container.text-start.my-5
+    .row
+      .col-sm
+        h2 Contact us 
+        form.rounded.p-3(style='background-color: rgb(209, 209, 209)', method='post', action='/conferma')
+          .mb-4
+            label.form-label(for='nome') Name 
+            input#nome.form-control(type='text', style='margin-top: -5px', name='name', maxlength="100", required)
+          .mb-4
+            label.form-label(for='email') Email
+            input#email.form-control(type='email', style='margin-top: -5px', name='email', maxlength="100", required)
+          .mb-4
+            label.form-label(for='numeroDiTelefono') Telefon number
+            input#numeroDiTelefono.form-control(type='number', style='margin-top: -5px', name='number',maxlength="11", required)
+          div
+            p.mb-0 Select the office you want to contact:
+            .form-check
+              input#flexRadioDefault1.form-check-input(type='radio', name='location' checked='' value="Rome")
+              label.form-check-label(for='flexRadioDefault1')
+                | Rome
+            .form-check
+              input#flexRadioDefault2.form-check-input(type='radio', name='location' value="Venice")
+              label.form-check-label(for='flexRadioDefault2')
+                | Venice
+            .form-check
+              input#flexRadioDefault3.form-check-input(type='radio', name='location' value="Milan")
+              label.form-check-label(for='flexRadioDefault3')
+                | Milan
+          .form-floating.mt-4
+            p Please briefly describe your problem: "max. 250 characters"
+            textarea#Textarea.form-control(style='margin-top: -10px', name='text' maxlength="255")
+          .my-3.form-check
+            input#check.form-check-input(type='checkbox', name='conditions', required)
+            label.form-check-label(for='check')
+              p
+                | I accept the 
+                a(href='', style='color: dimgray') Terms and Conditions
+          button.btn.btn-primary(type='submit') Send
+      .col-sm
+        .my-5.mx-5.p-3
+          h4.mb-4 What happens when I fill out the form?
+          .ps-3
+            p
+              | By completing the form we will contact you as soon as possible
+              | useful working day
+            p you will be contacted by telephone or email
+            p
+              | If you have certain times you prefer to be contacted,
+              | tell us about them together with the description of your problem
+          h4.mb-4 Are my data safe?
+          .ps-3
+            p
+              | We rely on the best cybersecurity services for
+              | guarantee our customers, including potential ones, the best
+              | of privacy
+            p
+              | Find all the in-depth information on safety
+              | in the appropriate section of 
+              a(href='', style='color: dimgray') Terms and Conditions
+ 
